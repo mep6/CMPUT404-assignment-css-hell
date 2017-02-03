@@ -1,0 +1,67 @@
+/*
+  Copyright 2017 Michele Paulichuk
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+*/
+
+body {
+  background-image: url("images/htmlBodyBackground.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+  margin: 0 5% 0 15%;
+}
+
+h1 {
+  font-family: cursive;
+  color: #800000;
+
+}
+
+h2 {
+  font-family: fantasy;
+  color: #00004d;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  font-family: cursive;
+  color: #602020;
+}
+
+pre {
+  color: #336699;
+  text-align: center;
+}
+
+a {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-style: normal;
+}
+
+img {
+  width: 50%;
+  border: double #330000 8pt;
+}
+
+img[src="images/enlarge.jpg"] {
+    width: 3%;
+    border: none;
+}
+
+.fig {
+  text-align: center;
+}
