@@ -15,22 +15,181 @@
 */
 
 body {
+  background-color: #d9e6f2;
+  color: #19334d;
 }
 
+.section-titles {
+  display: block;
+  font-size: 26pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/***** Title Bar Section CSS *****/
 .main-title-section {
+  background-color: #19334d;
+  color: #ecf2f9;
+  display: flex;
+  padding: 0 50px;
 }
 
-.nav-bar-section {
+.main-title-section a {
+  color:  #4080bf;
 }
 
-.who-am-i-section {
+.main-title-section a:hover {
+  color: #ecf2f9;
 }
 
-.experiences-section {
+.title-info {
+  float: left;
+  padding: 25px 0px 20px 15px;
 }
 
+.name {
+  font-family: serif;
+  font-size: 36pt;
+}
+
+.title {
+  font-size: 16pt;
+  color: #b3cce6;
+}
+
+.nav-bar {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 31px 0px 20px 0px;
+  margin-top: 42px;
+  font-size: 20pt;
+}
+
+.nav-bar span {
+  padding: 0px 10px;
+}
+
+.contact-info {
+  float: right;
+  padding: 43px 0px 20px 10px;
+}
+
+.social-links {
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+/***** About Me Section CSS *****/
+.about-section {
+  display: flex;
+  border: double 7px #19334d;
+}
+
+.about-section div {
+  padding: 10px;
+}
+
+.about-section div:nth-child(1) {
+  float: left;
+}
+
+.about-section div:nth-child(2) {
+  float: left;
+  padding: 85px;
+  text-align: center;
+  font-size: 16pt;
+}
+
+/*Ben Tayaa, http://stackoverflow.com/questions/17705768/is-it-possible-to-change-img-src-attribute-using-css*/
+.profile-img {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("images/michele.jpg") no-repeat;
+  width: 370px;
+  height: 370px;
+}
+
+.about-section p {
+  text-align: justify;
+}
+
+
+/********* Bottom Section CSS ********/
+.bottom-sections {
+  display: flex;
+}
+.resumish-section {
+  float: left;
+}
+
+/***** Skills Section CSS *****/
 .skills-setion {
+  background-color: #538cc6;
+  color: #ecf2f9;
+  padding: 15px;
 }
 
-.other-info-section {
+.skills-setion table {
+    border-collapse: collapse;
+    margin: 10px 60px 20px;
+}
+
+.skills-setion td {
+  padding: 10px;
+}
+
+/***** Experience Section CSS *****/
+.experiences-section {
+  background-color: #336699;
+  color: #ecf2f9;
+  padding: 15px;
+}
+
+.experience-info {
+  display: flex;
+}
+
+.experience-info div {
+  margin: 25px;
+}
+
+.experience-dates {
+  float: left;
+}
+
+.experience-job {
+  float: right;
+}
+
+/***** Project Section CSS *****/
+.projects-setion {
+  background-color: #264d73;
+  color: #ecf2f9;
+  padding: 15px;
+}
+
+.projects-setion a {
+  color: #538cc6;
+}
+
+/***** Other Interests Section CSS *****/
+.other-interests-section {
+  float: right;
+  background-color: #19334d;
+  color: #ecf2f9;
+  padding: 15px;
+  width: 25%;
+}
+
+.fun-fact-title {
+  display: block;
+  font-size: 26pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.other-interests-section div {
+  text-align: center;
+  margin: 20px 15px;
 }

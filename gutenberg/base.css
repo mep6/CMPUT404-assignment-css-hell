@@ -42,6 +42,12 @@ p {
   color: #602020;
 }
 
+p:not(.toc)::first-letter {
+  font-size: 20pt;
+  color: #4d0000;
+  font-weight: bold;
+}
+
 pre {
   color: #336699;
   text-align: center;

@@ -13,3 +13,125 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 */
+
+body {
+  background: url(images/cat-background.jpg);
+  color: #ffff00;
+  font-size: 25px;
+}
+
+.section-titles {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+/***** Title Section *****/
+.title-info {
+  text-align: center;
+  font-size: 50px;
+}
+
+.name {
+  font-size: 90px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.nav-bar {
+  font-size: 30px;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.contact-info {
+  float: right;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+/***** About Section CSS *****/
+.about-section {
+  text-align: center;
+  color: #00ffff;
+}
+
+.about-section div:nth-child(1) {
+  display: inline-flex;
+}
+
+.about-section div:nth-child(2) {
+  background-color: #000;
+}
+
+/*Ben Tayaa, http://stackoverflow.com/questions/17705768/is-it-possible-to-change-img-src-attribute-using-css*/
+.profile-img {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("images/cute-cat.gif") no-repeat;
+  width: 420px;
+  height: 420px;
+  border: solid 5px red;
+  content: "";
+}
+
+/******** Bottom Sections CSS ********/
+.resumish-section div {
+  margin: 25px;
+}
+
+.resumish-section span {
+  background-color: #00ffff;
+}
+
+/***** Other Interests Section CSS *****/
+.other-interests-section {
+  position: absolute;
+  top: 250px;
+  right: 82px;
+  width: 25%;
+  text-align: center;
+  color: #00ff99;
+}
+
+/***** Skills Section CSS *****/
+.skills-setion {
+  color: #cc33ff;
+  border: dashed #00ffff 3px;
+  text-align: center;
+}
+
+table, tr, td {
+  background-color: #fff;
+  border: solid #ff0000 1px;
+}
+
+/***** Experience Section CSS ****/
+.experiences-section {
+  color: #1a1aff;
+  border: dashed #00ffff 3px;
+}
+
+.experience-dates {
+  background-color: #ffff00;
+}
+
+.experience-job ul {
+  background-color: #00ff99;
+}
+
+/***** Project Section CSS *****/
+.projects-setion {
+  color: #ff0000;
+  border: dashed #00ffff 3px;
+  text-align: center;
+}
+
+.projects-setion a {
+  color: #ff0000;
+}
+
+.projects-setion ul {
+  background-color: #000;
+}
