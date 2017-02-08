@@ -25,7 +25,7 @@ Gutenberg Project HTML File Modifications
 =========================================
   * removed from head section the inline style sections from all three files
   * added to head section link base.css style sheet
-  * added to 1.html and 3.html the meta tage for dictating the content type; 2.html already had a meta tag
+  * added to 1.html and 3.html the meta tag for dictating the content type; 2.html already had a meta tag
   * striped out any references to the attribute style and its elements from all 3 files
   * in 3.html under images is a icon for enlarging the image, in those img tags they had the alt attribute blank, so added text to say what the image is for
 
